@@ -1,4 +1,4 @@
-package com.company.desinpattern.工厂模式.工厂模式.pizza;
+package com.company.desinpattern.工厂模式.工厂方法模式.pizza;
 
 /**
  * @author ：sjq

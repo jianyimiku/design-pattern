@@ -1,8 +1,8 @@
-package com.company.desinpattern.工厂模式.工厂模式.order;
+package com.company.desinpattern.工厂模式.工厂方法模式.order;
 
-import com.company.desinpattern.工厂模式.工厂模式.pizza.BJChessPizza;
-import com.company.desinpattern.工厂模式.工厂模式.pizza.BJPepperPizza;
-import com.company.desinpattern.工厂模式.工厂模式.pizza.Pizza;
+import com.company.desinpattern.工厂模式.工厂方法模式.pizza.BJChessPizza;
+import com.company.desinpattern.工厂模式.工厂方法模式.pizza.BJPepperPizza;
+import com.company.desinpattern.工厂模式.工厂方法模式.pizza.Pizza;
 
 import java.util.Objects;
 

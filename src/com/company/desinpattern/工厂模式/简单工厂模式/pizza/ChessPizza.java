@@ -10,6 +10,6 @@ package com.company.desinpattern.工厂模式.简单工厂模式.pizza;
 public class ChessPizza extends Pizza {
     @Override
     public void prepare() {
-        System.out.println("准备%s披萨".formatted(this.name));
+        System.out.printf("准备%s披萨%n", this.name);
     }
 }

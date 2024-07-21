@@ -32,7 +32,7 @@ public abstract class Support {
      * @param trouble
      */
     public void support(Trouble trouble) {
-        if (resolve(trouble)) {
+        if (supportResolve(trouble)) {
             this.done(trouble);
         } else if (next != null) {
             next.support(trouble);
@@ -47,7 +47,7 @@ public abstract class Support {
      * @param trouble
      * @return
      */
-    public abstract boolean resolve(Trouble trouble);
+    public abstract boolean supportResolve(Trouble trouble);
 
     /**
      * 执行函数
